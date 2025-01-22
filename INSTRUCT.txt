@@ -1,0 +1,1350 @@
+[{"fp":"1a530bb3072c1637f043eb6a44d1601a","type":"event","ffp":"","fzoneid":"","froleid":"","data":{"act_type":"mtacc","proj":"mlbb","behavior":"load_page","pagename":"login-new","language":"en","ntf":"bWwtlYPFycDNxwbunhytdwp03MkXk/lq3UB4FtkQzWe2SXMGfSCBClDvqH8Fp6dRjYjLlTfmdlw4NPXlXmSlNfFAtyapMWiFcZ0Jn6VWP7X97l8FypgtURYOZnI=,eyJ1c2VyVG9rZW4iOiJBV1B2V0ROM1JJb3E4Z1dlSlBtNjZNa244Q0xTaW9FZVp6RlY2TURjQmkxTHozcWZZcjlDWDd0ZkhhaGZuc2JqNFNlLXBLc09selEiLCJndWlkIjoiMzU0NzI3ODMiLCJlbmNvZGVQYXJhbSI6ImR5cmRhY2R0VW9qVkp6RlFFRXNGbHVpRTEtbHBuNkxGcUxDVGItVnR5ak5UZHBXNzlFcXI4ZVk1dFZMTWdSR3EwZWdXRVp2elFIUGFlVTh0enhYMGsweTc1emhVRGVWVE5LdTN4ZG1GSy1lMGtSZzBieXZDNGRMeUZyTlFyY01mOGI5Yk5KSTkyenJsUUpHakxURFNSd2I2MjFEVUJnZ2tqQVVwVkU0QUVhRDlpT2MzQkRzZFR6a2VGVUFRSFJsRGU2OWVrOHVIenAxZlFIZEtfcU5aaHhKQ2g4N3lhNXgxdXYwaHlCQnRHQmJqd0Z3U3ZvMF9NUG15WDl3YlBrcFk2eXJKWURieFpNVW5reWJ4WE9DcUVoYWlTNHJ4blBRNXNfbDQ0WFpSLUFjU1I3UldZdFp5ZHRQdEJ3UHUzNmpRLWJrWUtKRVNWemhpS1p3QnRtV1o3X292M1I5OW05RlBBRy1HdWllM1Z4cm56Wk1pcm1CQzVIR29qVEo5dkNVbk9yUHo4aGRYd0pWMmJ5cFVVQnoxdTVRMEdsNXFFamtabU9ZQ256WGdDVXFTRkpLVU9YQl9BazY2Ui1FRFFHdzl5QmwyRjBrSkNLMH4iLCJ1c2VyVG9rZW5QaG9uZUxvZ2luIjoiQVpYaG5nelUyN0tmUHRkdXNfT0luV3c1cGdvV0pKMkc3QTZtRXdIdTZ0Z3dmUzNtNVdnQlhNYWxESlpMR015ZDdpZ2tYV3BRaHdveUE5UmlDUVFVTlczaUVVUEJJRy1EMTBBNlpFMkRlU0xNNEtpN0V3TkluUSIsInBhc3N3ZFVybCI6IiIsInVzZXJUb2tlbkZvcmdvdFB3ZCI6IiIsInpvbmVpZCI6IjEyMjIyIiwicm9sZWlkIjoiODA4ODA1NDYwIn0=","maccode":"nidcd9e459ea708a948d5c2f5a6ca8838cf174cc9a32855fc0af5934285-1254-47a5-a2d6-0a204932008d","os_platform":"Android","os_version":"13","phone_brand":"other","browser_brand":"chrome","browser_version":"131.0.6778.260","browser_engine":"webkit","ga":""},"zoneid":"2180","roleid":"89157784"}]
+
+first request when logging in inside the ml app
+METHOD: GET
+URL
+https://mtacc.mobilelegends.com/v2.1/
+HEADERS
+Accept:
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Host:
+mtacc.mobilelegends.com
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+document
+Sec-Fetch-Mode:
+navigate
+Sec-Fetch-Site:
+none
+Sec-Fetch-User:
+?1
+Upgrade-Insecure-Requests:
+1
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+response 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+  <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name=format-detection content="telephone=no">
+  <meta charset=utf-8>
+  <meta http-equiv=cache-control content=no-cache>
+  <meta http-equiv=Pragma content=no-cache>
+  <meta http-equiv=expires content=0>
+  <title>mobilelegendsaccount</title>
+  <script type=text/javascript src=https://play.mobilelegends.com/base/report/report.js> </script> <style>.grecaptcha-badge{
+      display: none;
+    }</style><link href=/static/css/app.71a82bf1ea1eb85f15250a8ed4dcf3b0.css rel=stylesheet></head><body><div id=app></div><div class="loadingwrapper hide"><div class=spinner><div class="spinner-container container1"><div class=circle1></div><div class=circle2></div><div class=circle3></div><div class=circle4></div></div><div class="spinner-container container2"><div class=circle1></div><div class=circle2></div><div class=circle3></div><div class=circle4></div></div><div class="spinner-container container3"><div class=circle1></div><div class=circle2></div><div class=circle3></div><div class=circle4></div></div></div></div><script>var isIE = function (ver) {
+      var b = document.createElement('b');
+      b.innerHTML = '<!--[if IE ' + ver + ']><i></i><![endif]-->';
+      return b.getElementsByTagName('i').length === 1
+    }
+    if (isIE(6) || isIE(7) || isIE(8)) {
+      alert(
+        "Dear player, your current browser isn't compatible with this page. Please open in a mobile browser or a different PC browser such as Chrome etc. Thank you."
+        );
+      location.href = 'https://www.google.com/chrome/browser/desktop/index.html';
+    }</script>
+  <script>if (window.location.href.indexOf('/#/') > 0) {
+      var herf = window.location.href.split('/#/')[0] + '/' + window.location.href.split('/#/')[1];
+      window.location.replace(herf)
+    }
+
+    function KeyboardNotify(isopen, height) {
+      if (!isopen) {
+        //          document.getElementsByClassName('bigwrapper')[0].style.marginTop = 0;
+        var inputs = document.getElementsByTagName('input');
+        var length = inputs.length;
+        for (var i = 0; i < length; i++) {
+          inputs[i].blur();
+        }
+        document.getElementsByClassName('bigwrapper')[0].style.marginTop = '0px';
+      }
+    }
+    function b64DecodeUnicode(str) {
+      return decodeURIComponent(atob(str).split('').map(function (c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+      }).join(''));
+    }
+    //客户端调用
+    function LoadPage(pagename, language, ntf, maccode) {
+      try {
+        const IndexMlog = new Mlog({
+          activity: 'mtacc'
+        })
+        IndexMlog.visitLog({
+          behavior: 'load_page',
+          pagename: pagename,
+          language: language,
+          ntf: ntf,
+          maccode: maccode
+        })
+      } catch (e) {}
+      localStorage.setItem('language', language);
+      var ntfData = ntf.split(',')[0];
+      var emailData = ntf.split(',')[1];
+      localStorage.setItem('ntf', ntfData);
+      emailData && localStorage.setItem('emailsended', emailData)
+      let phoneServicer = 0
+      if(emailData){
+        const res = b64DecodeUnicode(emailData);
+        if(JSON.parse(res).phoneServicer){
+          phoneServicer = JSON.parse(res).phoneServicer;
+        }
+      }
+      localStorage.setItem('sms_type', phoneServicer);
+      var urlOrigin = window.location.origin + '/v2.1/'
+      switch (pagename) {
+        case 'unbind-phone':
+          location.href = urlOrigin + 'inapp/unbind-phone';
+          break;
+        case 'new-bindemail':
+          location.href = urlOrigin + 'inapp/new-bindemail';
+          break;
+        case 'email-register':
+          location.href = urlOrigin + 'inapp/email-register';
+          break;
+        case 'phone-register':
+          location.href = urlOrigin + 'inapp/phone-register';
+          break;
+        case 'forgotpassword-email':
+          location.href = urlOrigin + 'inapp/forgotpassword-email';
+          break;
+        case 'changbind-confirm':
+          location.href = urlOrigin + 'inapp/changbind-confirm';
+          break;
+        case 'changeemail-success':
+          location.href = urlOrigin + 'inapp/changeemail-success';
+          break;
+        case 'changebindphone':
+          location.href = urlOrigin + 'inapp/changebindphone';
+          break;
+        case 'changebindemail':
+          location.href = urlOrigin + 'inapp/changebindemail';
+          break;
+        case 'login-new':
+          location.href = urlOrigin + 'inapp/login-new';
+          break;
+        case 'loginbyemail':
+          location.href = urlOrigin + 'inapp/loginbyemail';
+          break;
+        case 'forgotpassword-phone':
+          location.href = urlOrigin + 'inapp/forgotpassword-phone';
+          break;
+        case 'forgotpassword3':
+          location.href = urlOrigin + 'inapp/forgotpassword-3';
+          break;
+        case 'login':
+          location.href = urlOrigin + 'inapp/login';
+          break;
+        case 'bindemail':
+          location.href = urlOrigin + 'inapp/bindemail';
+          break;
+        case 'createaccount2':
+          location.href = urlOrigin + 'inapp/createaccount2';
+          break;
+        case 'createaccount4':
+          location.href = urlOrigin + 'inapp/createaccount4';
+          break;
+        case 'phonebind':
+          location.href = urlOrigin + 'inapp/bindphone';
+          break;
+        case 'bindphonewithemail': // 已有邮箱绑定手机号
+          location.href = urlOrigin + 'inapp/bindphonewithemail';
+          break;
+        case 'bindemailwithphone': // 已有手机号绑定邮箱
+          location.href = urlOrigin + 'inapp/bindemailwithphone';
+          break;
+        case 'bindphonewithemail2': // 已有邮箱绑定手机号
+          location.href = urlOrigin + 'inapp/bindphonewithemail?s=2';
+          break;
+        case 'bindemailwithphone2': // 已有手机号绑定邮箱
+          location.href = urlOrigin + 'inapp/bindemailwithphone?s=2';
+          break;
+        default:
+          break;
+      }
+    }</script>
+  <script type=text/javascript src=/static/js/manifest.2e528e46013765b46754.js> </script> <script type=text/javascript src=/static/js/vendor.712c1ac305ec2a6ef841.js> </script> <script type=text/javascript src=/static/js/app.bb7953cc07be1b45fd9a.js> </script> </body> </html>
+
+those javascript src i already sent it to you the untitled .js 
+
+after that request next request will occur 
+
+METHOD: GET
+URL
+https://play.mobilelegends.com/base/report/report.js
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Host:
+play.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+script
+Sec-Fetch-Mode:
+no-cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+response 
+(function (t) {
+  var e = {};
+  function r(i) {
+    if (e[i]) {
+      return e[i].exports;
+    }
+    var o = e[i] = {
+      i: i,
+      l: false,
+      exports: {}
+    };
+    t[i].call(o.exports, o, o.exports, r);
+    o.l = true;
+    return o.exports;
+  }
+  r.m = t;
+  r.c = e;
+  r.d = function (t, e, i) {
+    if (!r.o(t, e)) {
+      Object.defineProperty(t, e, {
+        enumerable: true,
+        get: i
+      });
+    }
+  };
+  r.r = function (t) {
+    if (typeof Symbol != "undefined" && Symbol.toStringTag) {
+      Object.defineProperty(t, Symbol.toStringTag, {
+        value: "Module"
+      });
+    }
+    Object.defineProperty(t, "__esModule", {
+      value: true
+    });
+  };
+  r.t = function (t, e) {
+    if (e & 1) {
+      t = r(t);
+    }
+    if (e & 8) {
+      return t;
+    }
+    if (e & 4 && typeof t == "object" && t && t.__esModule) {
+      return t;
+    }
+    var i = Object.create(null);
+    r.r(i);
+    Object.defineProperty(i, "default", {
+      enumerable: true,
+      value: t
+    });
+    if (e & 2 && typeof t != "string") {
+      for (var o in t) {
+        r.d(i, o, function (e) {
+          return t[e];
+        }.bind(null, o));
+      }
+    }
+    return i;
+  };
+  r.n = function (t) {
+    var e = t && t.__esModule ? function () {
+      return t.default;
+    } : function () {
+      return t;
+    };
+    r.d(e, "a", e);
+    return e;
+  };
+  r.o = function (t, e) {
+    return Object.prototype.hasOwnProperty.call(t, e);
+  };
+  r.p = "";
+  r(r.s = 0);
+})([function (t, e, r) {
+  var i;
+  var o;
+  var n;
+  var a;
+  i = [];
+  o = true;
+  n = null;
+  (a = function (t) {
+    this.vue = t.vue || null;
+    this.mode = t.mode || "production";
+    this.time = t.time || 3;
+    this.num = t.num || 5;
+    this.jsErrorInfo = {};
+    this.count = 0;
+    this.cdn = "https://static.mobilelegends.com/resource/report/public/";
+    this.url = "https://api.mobilelegends.com/r";
+    this.ipUrl = "https://api.mobilelegends.com/base/ip";
+    this.pako = null;
+    this.platform = "";
+    this.version = "";
+    this.brand = "";
+    this.engine = "";
+    this.supporter = "";
+    this.supporterVs = "";
+    this.errData = {
+      error: {
+        act_type: t.activity,
+        proj: t.project || "mlbb"
+      },
+      url: window.location.href.split("?")[0],
+      params: window.location.href.split("?")[1] || "",
+      type: "error",
+      fp: window.localStorage.getItem("__murmur__") || ""
+    };
+    if (!t.activity) {
+      throw Error("activity must be exist");
+    }
+    this.visitData = {
+      fp: window.localStorage.getItem("__murmur__") || "",
+      type: "event",
+      ffp: "",
+      fzoneid: "",
+      froleid: "",
+      data: {
+        act_type: t.activity,
+        proj: t.project || "mlbb"
+      }
+    };
+    this.murmur = "";
+    this.init();
+  }).prototype = {
+    constructor: a,
+    init: function () {
+      this.listenError();
+      this.beforeClose();
+    },
+    listenError: function () {
+      var t = this;
+      if (window.Vue && Vue.config) {
+        Vue.config.errorHandler = function (e, r, i) {
+          if (t.errData.error.stack) {
+            if (t.count < 30) {
+              t.errData.error.stack += "\n" + t.ClearBr(e.stack);
+            }
+          } else {
+            t.errData.error.stack = t.ClearBr(e.stack);
+          }
+          t.sendData();
+          console.error(e);
+        };
+      } else {
+        window.onunhandledrejection = function (e) {
+          t.errData.error.message = e.reason;
+          t.sendData();
+          return true;
+        };
+        window.onerror = function (e, r, i, o, n) {
+          t.jsErrorInfo = {
+            errorMessage: e,
+            scriptURI: r,
+            lineNo: i,
+            columnNo: o,
+            error: n
+          };
+          t.errData.error.message = e;
+          t.errData.error.location = `${r}:${i}:${o}`;
+          if (t.errData.error.stack) {
+            var a = new RegExp("\n", "g");
+            var s = t.errData.error.stack.match(a);
+            t.count = s ? s.length : 0;
+            if (t.count < 30) {
+              t.errData.error.stack += n && "\n" + t.ClearBr(n.stack);
+            }
+          } else {
+            t.errData.error.stack = n && t.ClearBr(n.stack);
+          }
+          t.sendData();
+        };
+        this.interceptConsoleError();
+      }
+    },
+    isObject: function (t) {
+      return Object.prototype.toString.call(t) === "[object Object]";
+    },
+    interceptConsoleError: function () {
+      var t = this;
+      var e = console.error;
+      console.error = function (r) {
+        t.errData.error.message = (t.isObject(r) ? r.message : r) || "Unknown Error";
+        t.errData.error.location = "";
+        if (t.isObject(r)) {
+          t.errData.error.stack = r.stack ? t.ClearBr(r.stack) : "";
+        }
+        t.sendData();
+        e(r);
+      };
+    },
+    ClearBr: function (t) {
+      return t = (t = t.replace(/<\/?.+?>/g, "")).replace(/[\r\n]/g, "");
+    },
+    getCookie: function (t) {
+      if (document.cookie.length > 0) {
+        var e = document.cookie.indexOf(t + "=");
+        if (e !== -1) {
+          e += t.length + 1;
+          var r = document.cookie.indexOf(";", e);
+          if (r === -1) {
+            r = document.cookie.length;
+          }
+          return unescape(document.cookie.substring(e, r));
+        }
+      }
+      return null;
+    },
+    fingerHash: function (t, e) {
+      if (window.localStorage.getItem("__murmur__")) {
+        var r = window.localStorage.getItem("__murmur__");
+        this.errData.fp = r;
+        this.visitData.fp = r;
+        e();
+      } else {
+        var i = this;
+        if (this.murmur) {
+          this.errData.fp = this.murmur;
+          this.visitData.fp = this.murmur;
+          e();
+          return false;
+        }
+        Fingerprint2.get(t, function (t) {
+          i.murmur = Fingerprint2.x64hash128(t.map(function (t) {
+            return t.value;
+          }).join(), 31);
+          i.errData.fp = i.murmur;
+          i.visitData.fp = i.murmur;
+          if (i.murmur) {
+            window.localStorage.setItem("__murmur__", i.murmur);
+          }
+          e();
+        });
+      }
+    },
+    OSnow: function () {
+      var t = navigator.userAgent.toLowerCase();
+      var e = /macintosh|mac os x/i.test(navigator.userAgent);
+      if (t.indexOf("win32") >= 0 || t.indexOf("wow32") >= 0) {
+        return "win32";
+      } else if (t.indexOf("win64") >= 0 || t.indexOf("wow64") >= 0) {
+        return "win64";
+      } else if (e) {
+        return "mac";
+      } else {
+        return undefined;
+      }
+    },
+    judgeClient: function () {
+      try {
+        var t = navigator.userAgent;
+        var e = t.indexOf("Android") > -1 || t.indexOf("Adr") > -1;
+        var r = !!t.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+        if (e) {
+          return "Android";
+        } else if (r) {
+          return "IOS";
+        } else {
+          return this.OSnow();
+        }
+      } catch (t) {
+        return "Android";
+      }
+    },
+    getPcVersion: function () {
+      return "";
+    },
+    getAndroidVersion: function () {
+      try {
+        var t = navigator.userAgent.toLowerCase();
+        var e = "";
+        if (t.indexOf("android") > 0) {
+          e = (t.match(/android [\d._]+/gi) + "").replace(/[^0-9|_.]/gi, "").replace(/_/gi, ".");
+        }
+        return e;
+      } catch (t) {
+        return "";
+      }
+    },
+    getIosVersion: function () {
+      try {
+        var t = navigator.userAgent.toLowerCase();
+        var e = "";
+        if (t.indexOf("like mac os x") > 0) {
+          e = (t.match(/os [\d._]+/gi) + "").replace(/[^0-9|_.]/gi, "").replace(/_/gi, ".");
+        }
+        return e;
+      } catch (t) {
+        return "";
+      }
+    },
+    getBrand: function (t) {
+      var e = t.match(/iphone/i) == "iphone";
+      var r = t.match(/huawei/i) == "huawei";
+      var i = t.match(/honor/i) == "honor";
+      var o = t.match(/oppo/i) == "oppo";
+      var n = t.match(/pacm00/i) == "pacm00";
+      var a = t.match(/vivo/i) == "vivo";
+      var s = t.match(/mi\s/i) == "mi ";
+      var c = t.match(/mix\s/i) == "mix ";
+      var u = t.match(/redmi/i) == "redmi";
+      var p = t.match(/sm-/i) == "sm-";
+      var h = t.match(/pixel/i) == "pixel";
+      if (e) {
+        return "iphone";
+      } else if (r || i) {
+        return "huawei";
+      } else if (o || n) {
+        return "oppo";
+      } else if (a) {
+        return "vivo";
+      } else if (s || u || c) {
+        return "xiaomi";
+      } else if (p) {
+        return "samsung";
+      } else if (h) {
+        return "pixel";
+      } else {
+        return "other";
+      }
+    },
+    intervalLog: function () {
+      if (n) {
+        clearInterval(n);
+      }
+      n = null;
+      var t = Number(this.time) ? Number(this.time) : 2;
+      var e = this;
+      n = setInterval(function () {
+        if (i.length > 0) {
+          e.addLog();
+        }
+      }, t <= 3 ? 3000 : t * 1000);
+    },
+    beforeClose: function () {
+      var t = this;
+      window.onbeforeunload = function () {
+        if (i && i.length > 0) {
+          t.addLog();
+        }
+      };
+    },
+    getBroswer: function () {
+      var t = navigator.userAgent.toLowerCase();
+      function e(e) {
+        return e.test(t);
+      }
+      function r(e) {
+        return (t.match(e) || "").toString().replace(/[^0-9|_.]/g, "").replace(/_/g, ".");
+      }
+      if (e(/applewebkit/g)) {
+        this.engine = "webkit";
+        if (e(/edge/g)) {
+          this.supporter = "edge";
+          this.supporterVs = r(/edge\/[\d._]+/g);
+        } else if (e(/opr/g)) {
+          this.supporter = "opera";
+          this.supporterVs = r(/opr\/[\d._]+/g);
+        } else if (e(/chrome/g)) {
+          this.supporter = "chrome";
+          this.supporterVs = r(/chrome\/[\d._]+/g);
+        } else if (e(/safari/g)) {
+          this.supporter = "safari";
+          this.supporterVs = r(/version\/[\d._]+/g);
+        }
+      } else if (e(/gecko/g) && e(/firefox/g)) {
+        this.engine = "gecko";
+        this.supporter = "firefox";
+        this.supporterVs = r(/firefox\/[\d._]+/g);
+      } else if (e(/presto/g)) {
+        this.engine = "presto";
+        this.supporter = "opera";
+        this.supporterVs = r(/opr\/[\d._]+/g);
+        this.engine = "trident";
+        this.supporter = "iexplore";
+        this.supporterVs = r(/(msie [\d._]+)|(rv:[\d._]+)/g);
+      } else {
+        this.engine = "other";
+        this.supporter = "other";
+        this.supporterVs = "other";
+      }
+    },
+    beforeVistLog: function (t, e, r) {
+      if (this.getCookie("userGroup")) {
+        this.visitData.zoneid = this.getCookie("userGroup");
+      }
+      if (this.getCookie("userId")) {
+        this.visitData.roleid = this.getCookie("userId");
+      }
+      if (Object.prototype.toString.call(e) == "[object Object]") {
+        this.visitData.ffp = e.ffp || "";
+        this.visitData.fzoneid = e.fzoneid || "";
+        this.visitData.froleid = e.froleid || "";
+        this.visitData.roleid = e.roleid ? e.roleid : this.visitData.roleid;
+        this.visitData.zoneid = e.zoneid ? e.zoneid : this.visitData.zoneid;
+      }
+      for (var i in this.visitData.data) {
+        if (i != "act_type" && i != "proj") {
+          delete this.visitData.data[i];
+        }
+      }
+      if (!this.platform || !this.version) {
+        var o = {
+          Android: this.getAndroidVersion,
+          IOS: this.getIosVersion,
+          PC: this.getPcVersion,
+          win32: this.getPcVersion,
+          win64: this.getPcVersion,
+          mac: this.getPcVersion
+        };
+        this.platform = this.judgeClient();
+        this.version = o[this.platform]();
+      }
+      this.brand ||= this.getBrand(navigator.userAgent.toLowerCase());
+      if (!this.engine || !this.supporter || !!this.supporterVs) {
+        this.getBroswer();
+      }
+      if (this.brand == "other" && this.platform == "IOS") {
+        this.brand = "iphone";
+      }
+      t.os_platform = this.platform;
+      t.os_version = this.version;
+      t.phone_brand = this.brand;
+      t.browser_brand = this.supporter;
+      t.browser_version = this.supporterVs;
+      t.browser_engine = this.engine;
+      t.ga = this.getCookie("_ga") || "";
+      for (var n in t) {
+        this.visitData.data[n] = t[n];
+      }
+    },
+    addLog: function (t) {
+      var e = this;
+      if (t) {
+        r = [JSON.parse(JSON.stringify(this.visitData))];
+      } else {
+        var r = JSON.parse(JSON.stringify(i));
+        i = [];
+      }
+      this.loadResource(function () {
+        if (navigator.sendBeacon) {
+          var t = new URLSearchParams();
+          t.set("v3", JSON.stringify(r));
+          var i = new Blob([t], {
+            type: "application/x-www-form-urlencoded"
+          });
+          navigator.sendBeacon(e.url, i);
+        } else {
+          e.ajax_({
+            url: e.url,
+            type: "POST",
+            async: false,
+            data: {
+              v3: JSON.stringify(r)
+            }
+          });
+        }
+      });
+    },
+    visitLog: function (t, e, r) {
+      this.beforeVistLog(t, e, r);
+      if (o) {
+        o = false;
+        this.addLog(true);
+      } else {
+        if (r === true) {
+          this.addLog(true);
+          return false;
+        }
+        i.push(JSON.parse(JSON.stringify(this.visitData)));
+        this.intervalLog();
+        console.warn(i);
+        if (i.length >= this.num) {
+          this.addLog();
+        }
+      }
+    },
+    sendData: function () {
+      if (this.getCookie("userId")) {
+        this.errData.roleid = this.getCookie("userId");
+      }
+      if (this.getCookie("userGroup")) {
+        this.errData.zoneid = this.getCookie("userGroup");
+      }
+      var t = [JSON.parse(JSON.stringify(this.errData))];
+      var e = this;
+      this.loadResource(function () {
+        if (navigator.sendBeacon) {
+          var r = new URLSearchParams();
+          r.set("v3", JSON.stringify(t));
+          var i = new Blob([r], {
+            type: "application/x-www-form-urlencoded"
+          });
+          navigator.sendBeacon(e.url, i);
+        } else {
+          this.ajax_({
+            url: e.url,
+            type: "POST",
+            async: false,
+            data: {
+              v3: JSON.stringify(t)
+            }
+          });
+        }
+      });
+    },
+    loadJS: function (t, e) {
+      var r = document.createElement("script");
+      var i = e || function () {};
+      r.type = "text/javascript";
+      if (r.readyState) {
+        r.onreadystatechange = function () {
+          if (r.readyState == "loaded" || r.readyState == "complete") {
+            r.onreadystatechange = null;
+            i();
+          }
+        };
+      } else {
+        r.onload = function () {
+          i();
+        };
+      }
+      r.src = t;
+      document.getElementsByTagName("head")[0].appendChild(r);
+    },
+    getParams: function (t) {
+      var e = [];
+      for (var r in t) {
+        e.push(encodeURIComponent(r) + "=" + encodeURIComponent(t[r]));
+      }
+      e.push(("randomNumber=" + Math.random()).replace("."));
+      return e.join("&");
+    },
+    ajax_: function (t) {
+      (t = t || {}).type = (t.type || "GET").toUpperCase();
+      t.dataType = t.dataType || "json";
+      t.async = t.async || true;
+      var e;
+      var r = this.getParams(t.data);
+      (e = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP")).onreadystatechange = function () {
+        if (e.readyState == 4) {
+          var r = e.status;
+          if (r >= 200 && r < 300) {
+            if (t.success) {
+              t.success(e.responseText, e.responseXML);
+            }
+          } else if (t.fail) {
+            t.fail(r);
+          }
+        }
+      };
+      if (t.type == "GET") {
+        e.open("GET", t.url + "?" + r, t.async);
+        e.send(null);
+      } else if (t.type == "POST") {
+        e.open("POST", t.url, t.async);
+        e.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        e.send(r);
+      }
+    },
+    loadResource_: function (t, e) {
+      var r = {
+        extraComponents: [{
+          key: "ip",
+          getData: function (e, r) {
+            e(t);
+          }
+        }]
+      };
+      var i = this;
+      if (window.localStorage.getItem("__murmur__")) {
+        e();
+        return false;
+      } else if (window.Fingerprint2) {
+        i.fingerHash(r, e);
+        return false;
+      } else {
+        this.loadJS(i.cdn + "fingerprint2.min.js", function () {
+          i.fingerHash(r, function () {
+            e();
+          });
+        });
+        return;
+      }
+    },
+    loadResource: function (t) {
+      window.localStorage.getItem("mt_ip");
+      this.loadResource_("", t);
+    }
+  };
+  window.Mlog = a;
+}]);
+
+next after that request another will occur again
+METHOD: GET
+URL
+https://mtacc.mobilelegends.com/v2.1/inapp/login-new
+HEADERS
+Accept:
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Cookie:
+userId=89157784; userGroup=2180
+Host:
+mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/v2.1/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+document
+Sec-Fetch-Mode:
+navigate
+Sec-Fetch-Site:
+same-origin
+Sec-Fetch-User:
+?1
+Upgrade-Insecure-Requests:
+1
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+responsetext
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+  <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name=format-detection content="telephone=no">
+  <meta charset=utf-8>
+  <meta http-equiv=cache-control content=no-cache>
+  <meta http-equiv=Pragma content=no-cache>
+  <meta http-equiv=expires content=0>
+  <title>mobilelegendsaccount</title>
+  <script type=text/javascript src=https://play.mobilelegends.com/base/report/report.js> </script> <style>.grecaptcha-badge{
+      display: none;
+    }</style><link href=/static/css/app.71a82bf1ea1eb85f15250a8ed4dcf3b0.css rel=stylesheet></head><body><div id=app></div><div class="loadingwrapper hide"><div class=spinner><div class="spinner-container container1"><div class=circle1></div><div class=circle2></div><div class=circle3></div><div class=circle4></div></div><div class="spinner-container container2"><div class=circle1></div><div class=circle2></div><div class=circle3></div><div class=circle4></div></div><div class="spinner-container container3"><div class=circle1></div><div class=circle2></div><div class=circle3></div><div class=circle4></div></div></div></div><script>var isIE = function (ver) {
+      var b = document.createElement('b');
+      b.innerHTML = '<!--[if IE ' + ver + ']><i></i><![endif]-->';
+      return b.getElementsByTagName('i').length === 1
+    }
+    if (isIE(6) || isIE(7) || isIE(8)) {
+      alert(
+        "Dear player, your current browser isn't compatible with this page. Please open in a mobile browser or a different PC browser such as Chrome etc. Thank you."
+        );
+      location.href = 'https://www.google.com/chrome/browser/desktop/index.html';
+    }</script>
+  <script>if (window.location.href.indexOf('/#/') > 0) {
+      var herf = window.location.href.split('/#/')[0] + '/' + window.location.href.split('/#/')[1];
+      window.location.replace(herf)
+    }
+
+    function KeyboardNotify(isopen, height) {
+      if (!isopen) {
+        //          document.getElementsByClassName('bigwrapper')[0].style.marginTop = 0;
+        var inputs = document.getElementsByTagName('input');
+        var length = inputs.length;
+        for (var i = 0; i < length; i++) {
+          inputs[i].blur();
+        }
+        document.getElementsByClassName('bigwrapper')[0].style.marginTop = '0px';
+      }
+    }
+    function b64DecodeUnicode(str) {
+      return decodeURIComponent(atob(str).split('').map(function (c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+      }).join(''));
+    }
+    //客户端调用
+    function LoadPage(pagename, language, ntf, maccode) {
+      try {
+        const IndexMlog = new Mlog({
+          activity: 'mtacc'
+        })
+        IndexMlog.visitLog({
+          behavior: 'load_page',
+          pagename: pagename,
+          language: language,
+          ntf: ntf,
+          maccode: maccode
+        })
+      } catch (e) {}
+      localStorage.setItem('language', language);
+      var ntfData = ntf.split(',')[0];
+      var emailData = ntf.split(',')[1];
+      localStorage.setItem('ntf', ntfData);
+      emailData && localStorage.setItem('emailsended', emailData)
+      let phoneServicer = 0
+      if(emailData){
+        const res = b64DecodeUnicode(emailData);
+        if(JSON.parse(res).phoneServicer){
+          phoneServicer = JSON.parse(res).phoneServicer;
+        }
+      }
+      localStorage.setItem('sms_type', phoneServicer);
+      var urlOrigin = window.location.origin + '/v2.1/'
+      switch (pagename) {
+        case 'unbind-phone':
+          location.href = urlOrigin + 'inapp/unbind-phone';
+          break;
+        case 'new-bindemail':
+          location.href = urlOrigin + 'inapp/new-bindemail';
+          break;
+        case 'email-register':
+          location.href = urlOrigin + 'inapp/email-register';
+          break;
+        case 'phone-register':
+          location.href = urlOrigin + 'inapp/phone-register';
+          break;
+        case 'forgotpassword-email':
+          location.href = urlOrigin + 'inapp/forgotpassword-email';
+          break;
+        case 'changbind-confirm':
+          location.href = urlOrigin + 'inapp/changbind-confirm';
+          break;
+        case 'changeemail-success':
+          location.href = urlOrigin + 'inapp/changeemail-success';
+          break;
+        case 'changebindphone':
+          location.href = urlOrigin + 'inapp/changebindphone';
+          break;
+        case 'changebindemail':
+          location.href = urlOrigin + 'inapp/changebindemail';
+          break;
+        case 'login-new':
+          location.href = urlOrigin + 'inapp/login-new';
+          break;
+        case 'loginbyemail':
+          location.href = urlOrigin + 'inapp/loginbyemail';
+          break;
+        case 'forgotpassword-phone':
+          location.href = urlOrigin + 'inapp/forgotpassword-phone';
+          break;
+        case 'forgotpassword3':
+          location.href = urlOrigin + 'inapp/forgotpassword-3';
+          break;
+        case 'login':
+          location.href = urlOrigin + 'inapp/login';
+          break;
+        case 'bindemail':
+          location.href = urlOrigin + 'inapp/bindemail';
+          break;
+        case 'createaccount2':
+          location.href = urlOrigin + 'inapp/createaccount2';
+          break;
+        case 'createaccount4':
+          location.href = urlOrigin + 'inapp/createaccount4';
+          break;
+        case 'phonebind':
+          location.href = urlOrigin + 'inapp/bindphone';
+          break;
+        case 'bindphonewithemail': // 已有邮箱绑定手机号
+          location.href = urlOrigin + 'inapp/bindphonewithemail';
+          break;
+        case 'bindemailwithphone': // 已有手机号绑定邮箱
+          location.href = urlOrigin + 'inapp/bindemailwithphone';
+          break;
+        case 'bindphonewithemail2': // 已有邮箱绑定手机号
+          location.href = urlOrigin + 'inapp/bindphonewithemail?s=2';
+          break;
+        case 'bindemailwithphone2': // 已有手机号绑定邮箱
+          location.href = urlOrigin + 'inapp/bindemailwithphone?s=2';
+          break;
+        default:
+          break;
+      }
+    }</script>
+  <script type=text/javascript src=/static/js/manifest.2e528e46013765b46754.js> </script> <script type=text/javascript src=/static/js/vendor.712c1ac305ec2a6ef841.js> </script> <script type=text/javascript src=/static/js/app.bb7953cc07be1b45fd9a.js> </script> </body> </html>
+
+
+1st /r
+
+METHOD: POST
+URL
+https://api.mobilelegends.com/r
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Content-Length:
+1980
+Content-Type:
+application/x-www-form-urlencoded
+Host:
+api.mobilelegends.com
+Origin:
+https://mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+no-cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+request body
+
+v3
+[{"fp":"1a530bb3072c1637f043eb6a44d1601a","type":"event","ffp":"","fzoneid":"","froleid":"","data":{"act_type":"mtacc","proj":"mlbb","behavior":"load_page","pagename":"login-new","language":"en","ntf":"bWwtlYPFycDNxwbunhytdwp03MkXk/lq3UB4FtkQzWe2SXMGfSCBClDvqH8Fp6dRjYjLlTfmdlw4NPXlXmSlNfFAtyapMWiFcZ0Jn6VWP7X97l8FypgtURYOZnI=,eyJ1c2VyVG9rZW4iOiJBV1B2V0ROM1JJb3E4Z1dlSlBtNjZNa244Q0xTaW9FZVp6RlY2TURjQmkxTHozcWZZcjlDWDd0ZkhhaGZuc2JqNFNlLXBLc09selEiLCJndWlkIjoiMzU0NzI3ODMiLCJlbmNvZGVQYXJhbSI6ImR5cmRhY2R0VW9qVkp6RlFFRXNGbHVpRTEtbHBuNkxGcUxDVGItVnR5ak5UZHBXNzlFcXI4ZVk1dFZMTWdSR3EwZWdXRVp2elFIUGFlVTh0enhYMGsweTc1emhVRGVWVE5LdTN4ZG1GSy1lMGtSZzBieXZDNGRMeUZyTlFyY01mOGI5Yk5KSTkyenJsUUpHakxURFNSd2I2MjFEVUJnZ2tqQVVwVkU0QUVhRDlpT2MzQkRzZFR6a2VGVUFRSFJsRGU2OWVrOHVIenAxZlFIZEtfcU5aaHhKQ2g4N3lhNXgxdXYwaHlCQnRHQmJqd0Z3U3ZvMF9NUG15WDl3YlBrcFk2eXJKWURieFpNVW5reWJ4WE9DcUVoYWlTNHJ4blBRNXNfbDQ0WFpSLUFjU1I3UldZdFp5ZHRQdEJ3UHUzNmpRLWJrWUtKRVNWemhpS1p3QnRtV1o3X292M1I5OW05RlBBRy1HdWllM1Z4cm56Wk1pcm1CQzVIR29qVEo5dkNVbk9yUHo4aGRYd0pWMmJ5cFVVQnoxdTVRMEdsNXFFamtabU9ZQ256WGdDVXFTRkpLVU9YQl9BazY2Ui1FRFFHdzl5QmwyRjBrSkNLMH4iLCJ1c2VyVG9rZW5QaG9uZUxvZ2luIjoiQVpYaG5nelUyN0tmUHRkdXNfT0luV3c1cGdvV0pKMkc3QTZtRXdIdTZ0Z3dmUzNtNVdnQlhNYWxESlpMR015ZDdpZ2tYV3BRaHdveUE5UmlDUVFVTlczaUVVUEJJRy1EMTBBNlpFMkRlU0xNNEtpN0V3TkluUSIsInBhc3N3ZFVybCI6IiIsInVzZXJUb2tlbkZvcmdvdFB3ZCI6IiIsInpvbmVpZCI6IjEyMjIyIiwicm9sZWlkIjoiODA4ODA1NDYwIn0=","maccode":"nidcd9e459ea708a948d5c2f5a6ca8838cf174cc9a32855fc0af5934285-1254-47a5-a2d6-0a204932008d","os_platform":"Android","os_version":"13","phone_brand":"other","browser_brand":"chrome","browser_version":"131.0.6778.260","browser_engine":"webkit","ga":""},"zoneid":"2180","roleid":"89157784"}]
+
+2nd /r
+
+METHOD: POST
+URL
+https://api.mobilelegends.com/r
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Content-Length:
+692
+Content-Type:
+application/x-www-form-urlencoded
+Host:
+api.mobilelegends.com
+Origin:
+https://mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+no-cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+request body
+
+v3
+[{"fp":"1a530bb3072c1637f043eb6a44d1601a","type":"event","ffp":"","fzoneid":"","froleid":"","data":{"act_type":"mtacc","proj":"mlbb","behavior":"click_login","accouent":"nata.anggi.angel@gmail.com","submitforbiden":false,"submitState":false,"os_platform":"Android","os_version":"13","phone_brand":"other","browser_brand":"chrome","browser_version":"131.0.6778.260","browser_engine":"webkit","ga":""},"zoneid":"12222","roleid":"808805460"}]
+
+3rd /r
+
+METHOD: POST
+URL
+https://api.mobilelegends.com/r
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Content-Length:
+650
+Content-Type:
+application/x-www-form-urlencoded
+Host:
+api.mobilelegends.com
+Origin:
+https://mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+no-cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+request body
+
+[{"fp":"1a530bb3072c1637f043eb6a44d1601a","type":"event","ffp":"","fzoneid":"","froleid":"","data":{"act_type":"mtacc","proj":"mlbb","behavior":"showDialog","kind":"login","time":"2025-01-22 00:33:45","os_platform":"Android","os_version":"13","phone_brand":"other","browser_brand":"chrome","browser_version":"131.0.6778.260","browser_engine":"webkit","ga":""},"zoneid":"12222","roleid":"808805460"}]
+
+4th /r
+
+METHOD: POST
+URL
+https://api.mobilelegends.com/r
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Content-Length:
+692
+Content-Type:
+application/x-www-form-urlencoded
+Host:
+api.mobilelegends.com
+Origin:
+https://mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+no-cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+request body
+
+v3
+[{"fp":"1a530bb3072c1637f043eb6a44d1601a","type":"event","ffp":"","fzoneid":"","froleid":"","data":{"act_type":"mtacc","proj":"mlbb","behavior":"login_submit","accouent":"nata.anggi.angel@gmail.com","submitforbiden":false,"submitState":true,"os_platform":"Android","os_version":"13","phone_brand":"other","browser_brand":"chrome","browser_version":"131.0.6778.260","browser_engine":"webkit","ga":""},"zoneid":"12222","roleid":"808805460"}]
+
+and btw after those 4 /r it will login right now it will request to this
+METHOD: OPTIONS
+URL
+https://accountmtapi.mobilelegends.com/
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Access-Control-Request-Headers:
+content-type
+Access-Control-Request-Method:
+POST
+Connection:
+keep-alive
+Host:
+accountmtapi.mobilelegends.com
+Origin:
+https://mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+and this is the response 
+STATUS: 200 OK
+HEADERS
+Access-Control-Allow-Credentials:
+true
+Access-Control-Allow-Headers:
+Origin, X-Requested-With, Content-Type, Accept
+Access-Control-Allow-Methods:
+*
+Access-Control-Allow-Origin:
+https://mtacc.mobilelegends.com
+Connection:
+keep-alive
+Content-Length:
+0
+Date:
+Tue, 21 Jan 2025 16:33:48 GMT
+Server:
+nginx
+
+now it will request to this after that 
+METHOD: POST
+URL
+https://accountmtapi.mobilelegends.com/
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Content-Length:
+287
+Content-Type:
+application/json
+Host:
+accountmtapi.mobilelegends.com
+Origin:
+https://mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+ 
+this is the request body
+ 
+{
+  "op": "login",
+  "sign": "27949bdbc7b8a5ac27c328ba24576f35",
+  "params": {
+    "account": "nata.anggi.angel@gmail.com",
+    "md5pwd": "cc2d669e7fbd291e3b99bb9ab43f96f2",
+    "game_token": "AWPvWDN3RIoq8gWeJPm66Mkn8CLSioEeZzFV6MDcBi1Lz3qfYr9CX7tfHahfnsbj4Se-pKsOlzQ",
+    "recaptcha_token": "",
+    "country": ""
+  },
+
+then if success it will show this as a response
+{"code":0,"data":{"guid":"12184852","left_num":1000,"name":"","session":"DLMdYSbwmB1EpT5JEQMhFw=="},"guid":"12184852","left_num":1000,"message":"Error_Success","name":"","session":"DLMdYSbwmB1EpT5JEQMhFw=="}
+  "lang": "en"
+}
+
+after that we are back on /r again
+
+METHOD: POST
+URL
+https://api.mobilelegends.com/r
+HEADERS
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br, zstd
+Accept-Language:
+en-US,en;q=0.9
+Connection:
+keep-alive
+Content-Length:
+2687
+Content-Type:
+application/x-www-form-urlencoded
+Host:
+api.mobilelegends.com
+Origin:
+https://mtacc.mobilelegends.com
+Referer:
+https://mtacc.mobilelegends.com/
+sec-ch-ua:
+"Android WebView";v="131", "Chromium";v="131", "Not_A Brand";v="24"
+sec-ch-ua-mobile:
+?1
+sec-ch-ua-platform:
+"Android"
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+no-cors
+Sec-Fetch-Site:
+same-site
+User-Agent:
+Mozilla/5.0 (Linux; Android 13; SO-52A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.6778.260 Mobile Safari/537.36
+X-Requested-With:
+com.mobile.legends
+
+
+this is the request body
+
+v3
+[{"fp":"1a530bb3072c1637f043eb6a44d1601a","type":"event","ffp":"","fzoneid":"","froleid":"","data":{"act_type":"mtacc","proj":"mlbb","behavior":"login","session":"DLMdYSbwmB1EpT5JEQMhFw==","guid":"12184852","accouent":"nata.anggi.angel@gmail.com","res":"{\"data\":{\"code\":0,\"data\":{\"guid\":\"12184852\",\"left_num\":1000,\"name\":\"\",\"session\":\"DLMdYSbwmB1EpT5JEQMhFw==\"},\"guid\":\"12184852\",\"left_num\":1000,\"name\":\"\",\"session\":\"DLMdYSbwmB1EpT5JEQMhFw==\"},\"status\":200,\"statusText\":\"OK\",\"headers\":{\"content-length\":\"207\"},\"config\":{\"transformRequest\":{},\"transformResponse\":{},\"timeout\":10000,\"xsrfCookieName\":\"XSRF-TOKEN\",\"xsrfHeaderName\":\"X-XSRF-TOKEN\",\"maxContentLength\":-1,\"headers\":{\"Content-Type\":\"application/json\"},\"baseURL\":\"https://accountmtapi.mobilelegends.com\",\"retry\":2,\"retryDelay\":1000,\"method\":\"post\",\"url\":\"https://accountmtapi.mobilelegends.com\",\"data\":\"{\\\"op\\\":\\\"login\\\",\\\"sign\\\":\\\"27949bdbc7b8a5ac27c328ba24576f35\\\",\\\"params\\\":{\\\"account\\\":\\\"nata.anggi.angel@gmail.com\\\",\\\"md5pwd\\\":\\\"cc2d669e7fbd291e3b99bb9ab43f96f2\\\",\\\"game_token\\\":\\\"AWPvWDN3RIoq8gWeJPm66Mkn8CLSioEeZzFV6MDcBi1Lz3qfYr9CX7tfHahfnsbj4Se-pKsOlzQ\\\",\\\"recaptcha_token\\\":\\\"\\\",\\\"country\\\":\\\"\\\"},\\\"lang\\\":\\\"en\\\"}\"},\"request\":{}}","os_platform":"Android","os_version":"13","phone_brand":"other","browser_brand":"chrome","browser_version":"131.0.6778.260","browser_engine":"webkit","ga":""},"zoneid":"12222","roleid":"808805460"}]
+
+
+THATS THE FLOW OF MOBILELEGENDS LOGIN ACCOUNT NOW MAKE ME A PYTHON CODE IT WILL BE A MOBILELEGENDS CHECKER USE THE FILES AND INFOS I SENT YOU EARLIER AND RIGHT NOW
